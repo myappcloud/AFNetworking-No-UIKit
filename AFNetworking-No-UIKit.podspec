@@ -8,8 +8,8 @@
 
 Pod::Spec.new do |s|
   s.name             = 'AFNetworking-No-UIKit'
-  s.version          = '1.0.1'
-  s.summary          = 'AFNetworking官方库移除UIKit扩展类：移除对UIWebview的支持'
+  s.version          = '3.2.1'
+  s.summary          = 'A delightful iOS and OS X AFNetworking-3.2.1 framework without UIKit'
   s.module_name = "AFNetworking"
 
 
@@ -20,13 +20,13 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-AFNetworking官方库移除UIKit扩展类：移除对UIWebview的支持.
+A delightful iOS and OS X AFNetworking-3.2.1 framework without UIKit.
                        DESC
 
   s.homepage         = 'https://github.com/myappcloud/AFNetworking-No-UIKit'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'myappcloud' => 'appcloud@mingyuanyun.com' }
+  s.author             = { "longzh" => "longzh@mysoft.com.cn" }
   s.source           = { :git => 'https://github.com/myappcloud/AFNetworking-No-UIKit.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
