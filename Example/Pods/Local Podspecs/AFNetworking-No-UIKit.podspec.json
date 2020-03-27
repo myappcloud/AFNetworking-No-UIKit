@@ -1,9 +1,9 @@
 {
   "name": "AFNetworking-No-UIKit",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "summary": "AFNetworking官方库移除UIKit扩展类：移除对UIWebview的支持",
   "module_name": "AFNetworking",
-  "description": "TODO: Add long description of the pod here.",
+  "description": "AFNetworking官方库移除UIKit扩展类：移除对UIWebview的支持.",
   "homepage": "https://github.com/myappcloud/AFNetworking-No-UIKit",
   "license": {
     "type": "MIT",
@@ -14,7 +14,7 @@
   },
   "source": {
     "git": "https://github.com/myappcloud/AFNetworking-No-UIKit.git",
-    "tag": "1.0.0"
+    "tag": "1.0.1"
   },
   "platforms": {
     "ios": "8.0"
@@ -93,11 +93,11 @@
       },
       "source_files": [
         "AFNetworking-No-UIKit/Classes/AF{URL,HTTP}SessionManager.{h,m}",
-        "AFNetworking/AFCompatibilityMacros.h"
+        "AFNetworking-No-UIKit/Classes/AFCompatibilityMacros.h"
       ],
       "public_header_files": [
         "AFNetworking-No-UIKit/Classes/AF{URL,HTTP}SessionManager.h",
-        "AFNetworking/AFCompatibilityMacros.h"
+        "AFNetworking-No-UIKit/Classes/AFCompatibilityMacros.h"
       ]
     }
   ]

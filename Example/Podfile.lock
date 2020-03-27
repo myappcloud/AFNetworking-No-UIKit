@@ -1,16 +1,16 @@
 PODS:
-  - AFNetworking-No-UIKit (1.0.0):
-    - AFNetworking-No-UIKit/NSURLSession (= 1.0.0)
-    - AFNetworking-No-UIKit/Reachability (= 1.0.0)
-    - AFNetworking-No-UIKit/Security (= 1.0.0)
-    - AFNetworking-No-UIKit/Serialization (= 1.0.0)
-  - AFNetworking-No-UIKit/NSURLSession (1.0.0):
+  - AFNetworking-No-UIKit (1.0.1):
+    - AFNetworking-No-UIKit/NSURLSession (= 1.0.1)
+    - AFNetworking-No-UIKit/Reachability (= 1.0.1)
+    - AFNetworking-No-UIKit/Security (= 1.0.1)
+    - AFNetworking-No-UIKit/Serialization (= 1.0.1)
+  - AFNetworking-No-UIKit/NSURLSession (1.0.1):
     - AFNetworking-No-UIKit/Reachability
     - AFNetworking-No-UIKit/Security
     - AFNetworking-No-UIKit/Serialization
-  - AFNetworking-No-UIKit/Reachability (1.0.0)
-  - AFNetworking-No-UIKit/Security (1.0.0)
-  - AFNetworking-No-UIKit/Serialization (1.0.0)
+  - AFNetworking-No-UIKit/Reachability (1.0.1)
+  - AFNetworking-No-UIKit/Security (1.0.1)
+  - AFNetworking-No-UIKit/Serialization (1.0.1)
 
 DEPENDENCIES:
   - AFNetworking-No-UIKit (from `../`)
@@ -20,7 +20,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  AFNetworking-No-UIKit: 35ffb62961d3823105d7a7bb0cd0846b5e99403b
+  AFNetworking-No-UIKit: 9ad65093101cac4cb72b98a7642830cc5853eb28
 
 PODFILE CHECKSUM: 16bab0f47bb6f9e4f51b0cf67ffb15dccb46081b
 

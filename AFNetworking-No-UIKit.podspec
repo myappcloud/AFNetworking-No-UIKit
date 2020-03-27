@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'AFNetworking-No-UIKit'
-  s.version          = '1.0.0'
+  s.version          = '1.0.1'
   s.summary          = 'AFNetworking官方库移除UIKit扩展类：移除对UIWebview的支持'
   s.module_name = "AFNetworking"
 
@@ -20,7 +20,7 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+AFNetworking官方库移除UIKit扩展类：移除对UIWebview的支持.
                        DESC
 
   s.homepage         = 'https://github.com/myappcloud/AFNetworking-No-UIKit'
@@ -33,7 +33,7 @@ TODO: Add long description of the pod here.
   s.ios.deployment_target = '8.0'
 
   s.source_files = 'AFNetworking-No-UIKit/Classes/AFNetworking.h'
-    s.public_header_files = "Classes/AFNetworking.h"
+  s.public_header_files = "Classes/AFNetworking.h"
 
      pch_AF = <<-EOS
 #ifndef TARGET_OS_IOS
@@ -84,8 +84,8 @@ EOS
     ss.tvos.dependency 'AFNetworking-No-UIKit/Reachability'
     ss.dependency 'AFNetworking-No-UIKit/Security'
 
-    ss.source_files = 'AFNetworking-No-UIKit/Classes/AF{URL,HTTP}SessionManager.{h,m}', 'AFNetworking/AFCompatibilityMacros.h'
-    ss.public_header_files = 'AFNetworking-No-UIKit/Classes/AF{URL,HTTP}SessionManager.h', 'AFNetworking/AFCompatibilityMacros.h'
+    ss.source_files = 'AFNetworking-No-UIKit/Classes/AF{URL,HTTP}SessionManager.{h,m}', 'AFNetworking-No-UIKit/Classes/AFCompatibilityMacros.h'
+    ss.public_header_files = 'AFNetworking-No-UIKit/Classes/AF{URL,HTTP}SessionManager.h', 'AFNetworking-No-UIKit/Classes/AFCompatibilityMacros.h'
   end
 
   # s.resource_bundles = {
