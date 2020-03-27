@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '8.0'
+
+target 'AFNetworking-No-UIKit_Example' do
+  pod 'AFNetworking-No-UIKit', :path => '../'
+
+  target 'AFNetworking-No-UIKit_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
