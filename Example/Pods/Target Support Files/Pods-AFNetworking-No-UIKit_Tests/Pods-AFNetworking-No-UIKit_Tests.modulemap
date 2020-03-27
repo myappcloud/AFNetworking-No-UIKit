@@ -1,0 +1,6 @@
+framework module Pods_AFNetworking_No_UIKit_Tests {
+  umbrella header "Pods-AFNetworking-No-UIKit_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

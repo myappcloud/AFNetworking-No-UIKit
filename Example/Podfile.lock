@@ -1,0 +1,27 @@
+PODS:
+  - AFNetworking-No-UIKit (1.0.0):
+    - AFNetworking-No-UIKit/NSURLSession (= 1.0.0)
+    - AFNetworking-No-UIKit/Reachability (= 1.0.0)
+    - AFNetworking-No-UIKit/Security (= 1.0.0)
+    - AFNetworking-No-UIKit/Serialization (= 1.0.0)
+  - AFNetworking-No-UIKit/NSURLSession (1.0.0):
+    - AFNetworking-No-UIKit/Reachability
+    - AFNetworking-No-UIKit/Security
+    - AFNetworking-No-UIKit/Serialization
+  - AFNetworking-No-UIKit/Reachability (1.0.0)
+  - AFNetworking-No-UIKit/Security (1.0.0)
+  - AFNetworking-No-UIKit/Serialization (1.0.0)
+
+DEPENDENCIES:
+  - AFNetworking-No-UIKit (from `../`)
+
+EXTERNAL SOURCES:
+  AFNetworking-No-UIKit:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  AFNetworking-No-UIKit: 35ffb62961d3823105d7a7bb0cd0846b5e99403b
+
+PODFILE CHECKSUM: 16bab0f47bb6f9e4f51b0cf67ffb15dccb46081b
+
+COCOAPODS: 1.9.0.beta.3

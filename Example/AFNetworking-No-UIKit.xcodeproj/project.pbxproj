@@ -38,7 +38,7 @@
 
 /* Begin PBXFileReference section */
 		05A451DA47E082536CECC642 /* Pods-AFNetworking-No-UIKit_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AFNetworking-No-UIKit_Tests.release.xcconfig"; path = "Target Support Files/Pods-AFNetworking-No-UIKit_Tests/Pods-AFNetworking-No-UIKit_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		2A6B98C0D62D0E654943E879 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		2A6B98C0D62D0E654943E879 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		3915CA8738E620725C07DA21 /* Pods_AFNetworking_No_UIKit_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AFNetworking_No_UIKit_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58A195388D20070C39A /* AFNetworking-No-UIKit_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "AFNetworking-No-UIKit_Example.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -62,11 +62,11 @@
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		96FD40A63586A00EFEB382B9 /* Pods-AFNetworking-No-UIKit_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AFNetworking-No-UIKit_Example.debug.xcconfig"; path = "Target Support Files/Pods-AFNetworking-No-UIKit_Example/Pods-AFNetworking-No-UIKit_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		A62D4C28F2756DFE09BB9CC7 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		A62D4C28F2756DFE09BB9CC7 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		B7C772D7814412F253997C5C /* Pods-AFNetworking-No-UIKit_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AFNetworking-No-UIKit_Example.release.xcconfig"; path = "Target Support Files/Pods-AFNetworking-No-UIKit_Example/Pods-AFNetworking-No-UIKit_Example.release.xcconfig"; sourceTree = "<group>"; };
 		C0FF9E08B367AAA539626664 /* Pods-AFNetworking-No-UIKit_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AFNetworking-No-UIKit_Tests.debug.xcconfig"; path = "Target Support Files/Pods-AFNetworking-No-UIKit_Tests/Pods-AFNetworking-No-UIKit_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		C30ACA49B597B5BE0CC83577 /* Pods_AFNetworking_No_UIKit_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AFNetworking_No_UIKit_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		F2100A74E8E592D104E9A73D /* AFNetworking-No-UIKit.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = "AFNetworking-No-UIKit.podspec"; path = "../AFNetworking-No-UIKit.podspec"; sourceTree = "<group>"; };
+		F2100A74E8E592D104E9A73D /* AFNetworking-No-UIKit.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = "AFNetworking-No-UIKit.podspec"; path = "../AFNetworking-No-UIKit.podspec"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -193,7 +193,6 @@
 				C0FF9E08B367AAA539626664 /* Pods-AFNetworking-No-UIKit_Tests.debug.xcconfig */,
 				05A451DA47E082536CECC642 /* Pods-AFNetworking-No-UIKit_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -248,6 +247,9 @@
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = fengyang0329;
 				TargetAttributes = {
+					6003F589195388D20070C39A = {
+						ProvisioningStyle = Manual;
+					};
 					6003F5AD195388D20070C39A = {
 						TestTargetID = 6003F589195388D20070C39A;
 					};
@@ -258,6 +260,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -302,11 +305,11 @@
 			);
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-AFNetworking-No-UIKit_Example/Pods-AFNetworking-No-UIKit_Example-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/AFNetworking-No-UIKit/AFNetworking_No_UIKit.framework",
+				"${BUILT_PRODUCTS_DIR}/AFNetworking-No-UIKit/AFNetworking.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AFNetworking_No_UIKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AFNetworking.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -494,12 +497,16 @@
 			baseConfigurationReference = 96FD40A63586A00EFEB382B9 /* Pods-AFNetworking-No-UIKit_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Bai Sun (532477FAZT)";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "AFNetworking-No-UIKit/AFNetworking-No-UIKit-Prefix.pch";
 				INFOPLIST_FILE = "AFNetworking-No-UIKit/AFNetworking-No-UIKit-Info.plist";
 				MODULE_NAME = ExampleApp;
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.cocoapods.demo.AFNetworking-No-UIKit-Example";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = com_wild;
 				SWIFT_VERSION = 4.0;
 				WRAPPER_EXTENSION = app;
 			};
@@ -510,12 +517,15 @@
 			baseConfigurationReference = B7C772D7814412F253997C5C /* Pods-AFNetworking-No-UIKit_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "AFNetworking-No-UIKit/AFNetworking-No-UIKit-Prefix.pch";
 				INFOPLIST_FILE = "AFNetworking-No-UIKit/AFNetworking-No-UIKit-Info.plist";
 				MODULE_NAME = ExampleApp;
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.cocoapods.demo.AFNetworking-No-UIKit-Example";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = com_wild;
 				SWIFT_VERSION = 4.0;
 				WRAPPER_EXTENSION = app;
 			};
